@@ -1,1 +1,2 @@
-# ditto-document
+# Ditto
+Ditto Design Documentation.

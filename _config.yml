@@ -1,0 +1,11 @@
+title: Project Ditto Design Document
+email: ETC-Ditto@lists.andrew.cmu.edu
+description: The webpage serves as the design documentation of Project Ditto which is developing a game for Google Stadia platform.
+baseurl: ''
+url: ''
+github_username: etc-ditto
+
+theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-feed
