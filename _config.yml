@@ -1,9 +1,13 @@
-title: Project Ditto Design Document
+title: Project Ditto
 email: ETC-Ditto@lists.andrew.cmu.edu
-description: The webpage serves as the design documentation of Project Ditto which is developing a game for Google Stadia platform.
+description: The webpage serves as the design documentation of Team Ditto currently developing a game for Google Stadia platform.
 baseurl: ''
 url: ''
 github_username: etc-ditto
+logo: '/media/logo.png'
+search_enabled: false;
+aux_links: "Project Website":
+  -"https://www.etc.cmu.edu/projects/ditto/"
 
 theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
