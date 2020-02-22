@@ -15,4 +15,5 @@ We are Team Ditto, a multidisciplinary team consisting of 5 students from Entert
 Our client is Erin Hoffman-John, the lead designer of R&D at Google Stadia. <br>
 Our faculty advisors are Carl Rosendahl and Melanie Lam.
 
-
+### Project Website
+If you are more interested, please visit our [project website](https://www.etc.cmu.edu/projects/ditto/) where more information about current progress is being updated.
