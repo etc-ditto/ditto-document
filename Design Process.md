@@ -41,6 +41,7 @@ Shortcoming: It is also doable using online multiplayer framework.<br>
 The shortcomings of some of our ideas is that they are not fully using the feature of State Share: recording complete progress and carry a bunch of information. And we need also to think about the replayability and theme and privacy problems.
 
 ---
+
 ## Learnings
 
 We are able to learn a bunch of valuable information from our client. faculty advisors, and playtesters. Here is three criteria that we conclude as the key for a (potentially) successful State Share game:
@@ -50,20 +51,27 @@ We are able to learn a bunch of valuable information from our client. faculty ad
 3. To make multiplicative distribution rather than transferring a single branch to new players.
    UGC game requires more system design to control the game, and platformers really need decent levels.
 
+---
+
+## Prototypes for Halves <a name="digital-prototype"></a>
+
+After we narrow down ideas into two big categories, we begin to make the demo prototype for the incoming halves in Week 8. We all agree to make a digital prototype for the Virus vs. Cell idea for the following reasons: <br>
+
+1.  Some ideas are hard to paper prototype, even for those paper prototype-able ones it does not wholly match the feeling we want. <br>
+2.  Digital prototypes offer insights into controlling and feedback which paper prototype cannot give. <br>
+3.  As the project progresses, we need to settle down on art style and hardware as our final deliverable will be a digital game, so it is good to start early exploring possible approaches for the ideas. <br>
+
+### Game: Virus vs Cell
+
+On the other side, we would like to make a paper prototype for the second idea for the following reasons:
+
+1. We actually only have less than 2 weeks for the two prototypes, and we want the whole project to be on a good balance without leaving any of two prototypes behind.
+2. The One Hour One Life idea is feasible for paper prototyping as its core gameplay is pretty obvious and understandable to test on paper.
+
 ### Game: One Hour One Life
 
 ---
 
-## Digital Prototype <a name="digital-prototype"></a>
-
-By halves we are still making digital prototypes. After we narrow down ideas into two big categories, we are able to begin making one digital prototype for each category. The major point of making digital prototypes:<br>
-
-1.  Some ideas are hard to paper prototype, even for those paper prototype-able ones it does not wholly match the feeling we want. <br>
-2.  Digital prototypes offer insights into controlling and feedback which paper prototype cannot give. <br>
-3.  As the project progresses, we need to settle down on art style, hardware as our final deliverable will be a digital game, so it is good to start early exploring possible approaches for the ideas. <br>
-
-### Game: Virus vs Cell
-
----
-
 ## Production <a name="production"></a>
+
+We plan to begin the actual production phase as soon as possible after the halves presentation. New problems will arise of course, but we are all feeling good to keep revising the prototypes.

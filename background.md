@@ -4,7 +4,7 @@ title: Background
 nav_order: 2
 ---
 
-# Background Information
+# Background
 ---
 ### What is Stadia?
 Stadia is a cloud gaming service operated by Google that offers players the ability to play games at 4K resolution with 60 fps all from the comfort of their personal devices (whether that’s their smartphone or their laptop). Aside from allowing people to play games remotely, Stadia has many unique features that seek to also bridge the distance between streamers and audience such as the Crowd Play feature, which will allow streamers to create virtual queues for their audience to join games with them.
@@ -15,5 +15,5 @@ Stadia is a cloud gaming service operated by Google that offers players the abil
 ### What is our design goal?
 The design goal of this was to enable new kinds of games that rely on sharing game states, facilitating complex game system designs that are inherently viral and require elaborate player cooperation across massive scale audiences.
 
-### What is the expected form of deliverable?
+### What is the expected deliverable?
 Our project is a discovery project, meaning that we will explore more open-ended ideas and have a playable proof of concept as conclusion. We also put design documentation (aka. this website) at a significant place, as researching and ideation is also part of the discovery.
