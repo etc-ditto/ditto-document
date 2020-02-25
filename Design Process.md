@@ -70,7 +70,7 @@ In this prototype we are testing out much stuff, but more specifically:
 2. For engineers, to test technical solutions for State Share (at least faking it) such as separate control for individual player, split screen, and the fundamental splint and merge function.
 3. For artists, to try different ways of simulating responsive, interesting graphics to make the world feel real.
 
-![Cells](https://etc-ditto.github.io/media/process/cells-1.PNG)
+![Cells](https://etc-ditto.github.io/media/process/cells-1.png)
 
 ###### Map that we prepare for the playtest before halves.
 
