@@ -44,7 +44,7 @@ The shortcomings of some of our ideas is that they are not fully using the featu
 
 ## Learnings
 
-We are able to learn a bunch of valuable information from our client. faculty advisors, and playtesters. Here is three criteria that we conclude as the key for a (potentially) successful State Share game:
+We got a lot of valuable information from our client, faculty advisors and playtesters. Here is the three criteria that we think as the key to a (potentially) successful State Share game:
 
 1. Asymmetrical gameplay is suitable for streamer and audience and well conveys State Share’s idea.
 2. Having a persistent world (like mmo) is state sharable and could let players feel more immersed.
