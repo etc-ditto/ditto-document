@@ -47,7 +47,7 @@ By looking into existing games we are able to find many patterns that make a gam
 
 ## Virus vs. Cell <a name="virus"></a>
 
-Virus vs. Cell is a streaming-based multiplayer game where streamers and audience play in the same world (human body) using State Share feature to synchronize all the game data.
+Virus vs. Cell is a streaming-based platformer game where streamers and audience play in the same world (inside human body) using State Share feature to synchronize all the game data.
 
 ### Core Gameplay
 
@@ -59,15 +59,15 @@ In Virus vs. Cell everyone except the host starts off as a cell splinted from an
 Every separate cell travels in a big map and collects nutrients for the human body. At some point where the tunnel is too narrow, they will have to splint and invite another player to play a daughter cell for them. The big map is composed of several small task maps and there are meeting places for cells to hand in collectibles and merge other cells back into a bigger one.<br>
 The map, with a theme of inside human body, has many platforms and fields that adds fun to the travelling.
 
-- The level is built with State Share in mind. The cells need to split at the beginning of each level and merge back again.
+- The level is built with State Share in mind. The cells need to split at the beginning of each separate level and merge back again.
 - Jumping is an essential action for most of the levels.
 - Occasional force fields simulates the blood circulation, and is a map mechanic that allows the cell to travel between distant places.
 - Many platforms that cell can jump onto encourage players to explore the world. There are always more collectible in each map than the level requirement, and the system will award players that make a bigger contribution.
 
-### Possible Next Step
+### Next Step
 
-- More divisions of cells. Red cells, T-cells, etc.
-- More competitive elements: virus camp.
+- More cell subdivisions. Red cells, T-cells, etc.
+- More competitive elements: the cells and virus can fight each other.
 
 ---
 

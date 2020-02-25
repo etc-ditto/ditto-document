@@ -34,10 +34,11 @@ We talk about each scene for its feasibility, novelty and how close is State Sha
 
 After narrowing down ideas, we begin making paper prototypes and do playtest both internally and with naive guests. This iteration phase is helpful to solidify our ideas.<br>
 We make one page design document for each idea to better illustrate the conception to the audience, especially for those who are not familiar with Stadia. We eventually built 5 paper prototypes as following:
-Sharing Part of the Information (Photo Leap, Haunted House): like most multiplayer games, the game delivers the result to all players.<br>
-Geographic/ location-based Multiplayer (Animal Inn)<br>
-State Tagging (Bomb Express): Delivering the state to the next player after a time period.
-Shortcoming: It is also doable using online multiplayer framework.<br>
+
+- Sharing Part of the Information (Photo Leap, Haunted House): like most multiplayer games, the game delivers the result to all players.<br>
+- Geographic/location-based Multiplayer (Animal Inn): We think of ways to connect players around the world to play together using State Share. Animal Inn is an idea where people raise pets and "send" them to others for a short time.<br>
+- State Tagging (Bomb Express): To let players pass a game back and forth by delivering the state to the next player after a time period. Our idea was to make a game where player pass ticking bombs like a hot potato.<br>
+
 The shortcomings of some of our ideas is that they are not fully using the feature of State Share: recording complete progress and carry a bunch of information. And we need also to think about the replayability and theme and privacy problems.
 
 ---
@@ -53,7 +54,7 @@ We got a lot of valuable information from our client, faculty advisors and playt
 
 ---
 
-## Prototypes for Halves <a name="digital-prototype"></a>
+## Prototypes before Halves <a name="digital-prototype"></a>
 
 After we narrow down ideas into two big categories, we begin to make the demo prototype for the incoming halves in Week 8. We all agree to make a digital prototype for the Virus vs. Cell idea for the following reasons: <br>
 
@@ -63,12 +64,24 @@ After we narrow down ideas into two big categories, we begin to make the demo pr
 
 ### Game: Virus vs Cell
 
+In this prototype we are testing out much stuff, but more specifically:
+
+1. For designers, to confirm that the level and gameplay works well together and implements State Share as one of the core mechanism.
+2. For engineers, to test technical solutions for State Share (at least faking it) such as separate control for individual player, split screen, and the fundamental splint and merge function.
+3. For artists, to try different ways of simulating responsive, interesting graphics to make the world feel real.
+
+![Cells](https://etc-ditto.github.io/media/reference/cell-1.PNG)
+
+###### Map that we prepare for the playtest before halves.
+
+In this early version we are building the first part of the idea: the virus camp collect power-ups and prepare for the fight with cells. The player can explore different levels and try getting collectibles many as possible by jumping in this 1-minute experience.
+
+### Game: One Hour One Life
+
 On the other side, we would like to make a paper prototype for the second idea for the following reasons:
 
 1. We actually only have less than 2 weeks for the two prototypes, and we want the whole project to be on a good balance without leaving any of two prototypes behind.
 2. The One Hour One Life idea is feasible for paper prototyping as its core gameplay is pretty obvious and understandable to test on paper.
-
-### Game: One Hour One Life
 
 ---
 
