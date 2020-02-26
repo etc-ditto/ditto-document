@@ -12,8 +12,8 @@ nav_order: 5
 
 ### 5 Paper Prototypes
 
-![Playtest](https://etc-ditto.github.io/media/reference/playtest-1.jpg)
-![Playtest](https://etc-ditto.github.io/media/reference/playtest-2.jpg)
+![Playtest](https://etc-ditto.github.io/media/reference/process/playtest-1.jpg)
+![Playtest](https://etc-ditto.github.io/media/reference/process/playtest-2.jpg)
 
 ###### People testing 2 of our 5 prototypes in week 3.
 

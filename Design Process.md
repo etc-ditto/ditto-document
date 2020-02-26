@@ -72,18 +72,23 @@ In this prototype we are testing out much stuff, but more specifically:
 
 ![Cells](https://etc-ditto.github.io/media/process/cells-1.png)
 
-###### Map that we prepare for the playtest before halves.
-
+<h5 style="text-align: center;">Map that we prepare for the playtest before halves.</h5>
 In this early version we are building the first part of the idea: the virus camp collect power-ups and prepare for the fight with cells. The player can explore different levels and try getting collectibles many as possible by jumping in this 1-minute experience.
 
 ### Game: One Hour One Life
 
 On the other side, we would like to make a paper prototype for the second idea for the following reasons:
 
-1. We actually only have less than 2 weeks for the two prototypes, and we want the whole project to be on a good balance without leaving any of two prototypes behind.
-2. The One Hour One Life idea is feasible for paper prototyping as its core gameplay is pretty obvious and understandable to test on paper.
+1. We actually only have less than 2 weeks before halves for the two prototypes, and we want the project to be on a good balance without leaving any of two prototypes behind.
+2. The One Hour One Life idea is feasible for paper prototyping as its core gameplay is pretty clear and understandable even on paper.
+3. We don't need to test every details but just focus on the "share" part and everything we do for paper prototype can be transferred easily to Unity.
 
----
+We would like to theme this idea as growing a treehouse: there is one immortal elder in charge of the whole ecosystem, and they invite elves (basically workers) to play the game for a limited time. They work together to collect resource underground, branch the tree, and build houses and facilities. When an elf dies, they can pass their data to another player but also keep their work remaining in the world.<br>
+The game also has a weather system which adds factors that affect the resources and have random events.
+
+![Treehouse](https://etc-ditto.github.io/media/process/treehouse-1.png)
+
+<h5 style="text-align: center;">The paper prototype of our Treehouse idea.</h5>
 
 ## Production <a name="production"></a>
 
