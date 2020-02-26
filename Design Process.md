@@ -86,7 +86,7 @@ On the other side, we would like to make a paper prototype for the second idea f
 We would like to theme this idea as growing a treehouse: there is one immortal elder in charge of the whole ecosystem, and they invite elves (basically workers) to play the game for a limited time. They work together to collect resource underground, branch the tree, and build houses and facilities. When an elf dies, they can pass their data to another player but also keep their work remaining in the world.<br>
 The game also has a weather system which adds factors that affect the resources and have random events.
 
-![Treehouse](https://etc-ditto.github.io/media/process/treehouse-1.png)
+![Treehouse](https://etc-ditto.github.io/media/process/treehouse-1.jpg)
 
 <h5 style="text-align: center;">The paper prototype of our Treehouse idea.</h5>
 

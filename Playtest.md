@@ -12,10 +12,10 @@ nav_order: 5
 
 ### 5 Paper Prototypes
 
-![Playtest](https://etc-ditto.github.io/media/reference/process/playtest-1.jpg)
-![Playtest](https://etc-ditto.github.io/media/reference/process/playtest-2.jpg)
+![Playtest](https://etc-ditto.github.io/media/process/playtest-1.jpg)
+![Playtest](https://etc-ditto.github.io/media/process/playtest-2.jpg)
 
-###### People testing 2 of our 5 prototypes in week 3.
+<h5 style="text-align: center;">People testing 2 of our 5 prototypes in week 3.</h5>
 
 In Week 3 we invited fellow classmates and EA individuals to play each of the early 5 prototypes and ask for their opinions. Also, during the quarters we had 7 guests coming from EA who evaluated our one-page design document and gave detailed feedback.<br>
 Following are the takeaways:
@@ -26,8 +26,6 @@ Following are the takeaways:
 4. Replayablitity. This is also a problem with regard to our target demographic. In this respect, puzzle games have the biggest issue so we opted out of making a puzzle game.
 
 ### Virus vs. Cell
-
-State Share leverages cloud game hosting to enable players to share a complete game state instantly with their friends or to the public. It allows you to take 30-second snapshots of your current game’s state and share them online to whoever you want, allowing anyone the ability to “jump” directly into that specific instance of your game. Here’s a [link](https://stadia.dev/blog/the-magic-of-state-share-explained/) to Stadia’s blog on the subject.
 
 We ran a playtest in week 7 just before the halves to make sure our design really highlights the State Share and feels good.
 
