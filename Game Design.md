@@ -6,7 +6,7 @@ nav_order: 4
 
 # Game Design
 
-## The project is updating everyday and our game design is subject to change. But before that, have fun!
+## This page covers how we think over the mechanics. The project is updating everyday and our game design is subject to change. But before that, have fun!
 
 1. [Learnings](#learnings)
 2. [Prototype 1: Virus vs. Cells](#virus)
@@ -16,7 +16,7 @@ nav_order: 4
 
 ## Learnings <a name="learnings"></a>
 
-By looking into existing games we are able to find many patterns that make a game fun to play and watch, and most importantly, to share things.
+By looking into existing games we are able to find many patterns that make a game fun to play and watch and most importantly, to share things.
 
 ## LocoRoco 1 & 2
 
@@ -40,10 +40,11 @@ By looking into existing games we are able to find many patterns that make a gam
 - Granting players chances to make up for something wrong. When a LocoRoco got eaten by monsters they have a short time to strike back, kill the monster and regain the lost piece.
 - Highly stylish physics: low friction makes it feel really good to slide and jump.
 
-- ### Very strong feedback
-  - Jumping and merging shakes the camera which gives strong physical feedback. To split the game creates a lightning effect in the background and is visually very impressive.
-  - Also, the camera zooms in and out.
-  - Visual hints if two LocoRocos are away from each other. This reminds players not to forget their fellows.
+### Very strong feedback
+
+- Jumping and merging shakes the camera which gives strong physical feedback. To split the game creates a lightning effect in the background and is visually very impressive.
+- Also, the camera zooms in and out.
+- Visual hints if two LocoRocos are away from each other. This reminds players not to forget their fellows.
 
 ---
 
