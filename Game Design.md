@@ -9,8 +9,9 @@ nav_order: 4
 ## This page covers how we think over the mechanics. The project is updating everyday and our game design is subject to change. But before that, have fun!
 
 1. [Learnings](#learnings)
-2. [Prototype 1: Virus vs. Cells](#virus)
-3. [Prototype 2: One Hour One Life](#one-hour)
+2. [One-Page Design Document](#one-page)
+3. [Prototype 1: Virus vs. Cells](#virus)
+4. [Prototype 2: Treehouse](#treehouse)
 
 ---
 
@@ -48,6 +49,18 @@ By looking into existing games we are able to find many patterns that make a gam
 
 ---
 
+## One Page Design Document <a name="one-page"></a>
+
+As suggested by the client, we created one-page design document that describes the overall mechanics for each of 5 ideas and showed them to the guests during the quarters. One-page design document is a nice way to conclude our thoughts and present them in an relatively appealing way. Check the hyperlink to see each. <br>
+
+- <a href="https://etc-ditto.github.io/media/process/virus-cell.png" target="_blank">Virus vs Cell</a>
+- <a href="https://etc-ditto.github.io/media/process/animal-inn.png" target="_blank">Animal Inn</a>
+- <a href="https://etc-ditto.github.io/media/process/bomb.png" target="_blank">Bomb Express</a>
+- <a href="https://etc-ditto.github.io/media/process/photo-leap.png" target="_blank">Photo Leap</a>
+- <a href="https://etc-ditto.github.io/media/process/manor.png" target="_blank">Escape from Timelock Manor</a>
+
+---
+
 ## Virus vs. Cell <a name="virus"></a>
 
 Virus vs. Cell is a streaming-based platformer game where streamers and audience play in the same world (inside human body) using State Share feature to synchronize all the game data.
@@ -72,9 +85,9 @@ Every separate cell travels in a big map and collects nutrients for the human bo
 
 ---
 
-## One Hour One Life <a name="one-hour"></a>
+## Treehouse <a name="treehouse"></a>
 
-One Hour One Life is a casual collaborative game where players feed the Tree of Life and build houses on the tree. They use State Share to invite others to join in so as to collect more resources and build a large, fancy world.
+Treehouse is a casual collaborative game where players feed the Tree of Life and build houses on the tree. They use State Share to invite others to join in so as to collect more resources and build a large, fancy world.
 
 ### Inspiration
 
@@ -82,7 +95,7 @@ We got this idea from the game [One Hour One Life](https://store.steampowered.co
 
 ![One-Hour](https://etc-ditto.github.io/media/reference/one-hour-1.jpg)
 
-<h5 style="text-align: center;">How you change in One Hour One Life.</h5>
+<h5 style="text-align: center;">How you age in One Hour One Life.</h5>
 
 ### Core Gameplay
 

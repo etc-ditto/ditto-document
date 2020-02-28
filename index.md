@@ -22,4 +22,4 @@ Our faculty advisors are Carl Rosendahl and Melanie Lam.
 
 ### Project Website
 
-If you are more interested, please visit our [project website](https://www.etc.cmu.edu/projects/ditto/) where more information about current progress is being updated.
+If you have further interest, we would like to invite you to our [project website](https://www.etc.cmu.edu/projects/ditto/) where more information about current progress is being updated.
