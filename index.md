@@ -4,7 +4,7 @@ title: Overview
 nav_order: 1
 ---
 
-# Ditto Design Document
+# Ditto Design Documentation
 
 ## Ditto is developing a game that makes the full use of Stadia's State Share feature.
 
@@ -22,4 +22,4 @@ Our faculty advisors are Carl Rosendahl and Melanie Lam.
 
 ### Project Website
 
-If you have further interest, we would like to invite you to our [project website](https://www.etc.cmu.edu/projects/ditto/) where more information about current progress is being updated.
+If you have further interest, the team would like to introduce our [project website](https://www.etc.cmu.edu/projects/ditto/) where more information about the whole project is being updated.

@@ -12,7 +12,7 @@ nav_order: 3
 2. [Ideation](#ideation)
 3. [Paper Prototype](#paper-prototype)
 4. [Digital Prototype](#digital-prototype)
-5. [Production](#production)
+5. [Final Prototype](#final-prototype)
 
 ---
 
@@ -91,6 +91,8 @@ The game also has a weather system which adds factors that affect the resources 
 
 <h5 style="text-align: center;">The paper prototype of our Treehouse idea.</h5>
 
-## Production <a name="production"></a>
+## Final Prototype <a name="final-prototype"></a>
 
-We plan to begin the actual production phase as soon as possible after the halves presentation. New problems will arise of course, but we are all feeling good to keep revising the prototypes.
+Everything's changed a lot as we finished our half presentation and enjoyed the mid-semester break during which we realized we had to work remotely for the safety reasons. Our client, Erin, in the virtual meeting confirmed our work so far and suggested that we continue to polish our game and make a short clip about it demonstrating the core features and mechanics.
+
+With her advice, we partly pivoted our focus of the final prototype to instead of making multiple maps, using a relatively short but essential level to showcase our design ideas, art style, and user interaction.
