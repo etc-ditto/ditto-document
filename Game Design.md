@@ -16,7 +16,10 @@ nav_order: 4
 
 ## One Page Design Document <a name="one-page"></a>
 
-As suggested by the client, we created one-page design document that describes the overall mechanics for each of 5 ideas and showed them to the guests during the quarters. One-page design document is a nice way to conclude our thoughts and present them in an relatively appealing way. Check the hyperlink to see each. <br>
+We had in total five ideas in the first ideation phase and as suggested by the client, we created one-page design document for each to depict the overall mechanics and game flow. In this stage we mainly focused on finding interesting mechanics to implement the State Share feature.
+
+During quarter walkaround, we showed and explained these five documents to our guests and faculty and students who also gave positive feedback and thoughtful opinions.
+Check the hyperlink to see each. <br>
 
 - <a href="https://etc-ditto.github.io/media/process/virus-cell.png" target="_blank">Virus vs Cell</a>
 - <a href="https://etc-ditto.github.io/media/process/animal-inn.png" target="_blank">Animal Inn</a>
@@ -32,7 +35,34 @@ Virus vs. Cell is a streaming-based platformer game where streamers and audience
 
 ### Core Gameplay
 
-Split. Play together AND separately. Merge. <br> In Virus vs. Cell everyone except the host starts off as a cell splinted from another player. The game host, who starts the game, controls a mother cell who needs other players' help to do the tasks. At some certain point the mother cell can split into two and the host can invite audience or friends to join in and play as the daughter cell.
+Split. Play together and separately. Merge. <br> In Virus vs. Cell everyone controls either a cell or virus to perform tasks in order to defeat the other side and protect/infect the human body. State Share feature will be used to transfer the control of split cells and also to regain the control when merging.
+
+### Camps
+
+There are two camps in the game: virus and white blood cells. Ideally the lead of each camp will be played by a YouTube streamer who has access to the Stadia's platform exclusive features. The streamers, who are also the game host that run the game in the first place, controls a mother virus/cell that can split into smaller viruses/cells and send invitation links. The audience who click on the link will be able to jump into the current game phase and play as daughter viruses/cells.
+
+### Setup & Goals
+
+The game simulates the battle between viruses and cells inside human's body. The viruses and cells starts off somewhere inside human body, with only one streamer playing each side.
+
+The game is overall like a race between virus and cells. The win condition for the white blood cells is to kill enough viruses so that they cannot infect the heart. The win condition for the viruses is to get to the heart and infect enough cells there.
+
+### System Design
+
+- Splitting
+
+  - Cells/viruses may only split at certain locations.
+  - "Infecting" a cell: cells have a certain receptor on their body that when viruses touch it, they got converted into a virus. This is how viruses split.
+  - Everytime when viruses split, they leave a "trail" or signal, which the white blood cells can find.
+  - Cells may split in more places where they need to.
+
+- Merging
+
+  - "Clone Machine": it is a mechanism that allows people to share a portion of their bio mass with others, instead of simply getting merged into another player and losing all control.
+  - Cells may merge viruses into themselves in order.
+
+- Permanent Infrastructure
+  - After cells reach a particular destination, they can start to build defense facilities to hinder viruses from moving forwards freely.
 
 ### Level Design
 

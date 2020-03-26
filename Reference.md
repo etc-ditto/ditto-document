@@ -72,3 +72,5 @@ LocoRoco is a platformer game developed by SCE Japan Studio. The player starts w
 ---
 
 ## Concept Art <a name="concept-art"></a>
+
+[Slide of Visual Concept](https://docs.google.com/presentation/d/1_xwAPqd1bZhTzXND7o1ZQkxtBMlUvUiHlpaLceLsvUE)

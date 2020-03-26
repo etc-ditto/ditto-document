@@ -13,6 +13,7 @@ nav_order: 3
 3. [Paper Prototype](#paper-prototype)
 4. [Digital Prototype](#digital-prototype)
 5. [Final Prototype](#final-prototype)
+6. [Future Expectation](#future)
 
 ---
 
@@ -96,3 +97,11 @@ The game also has a weather system which adds factors that affect the resources 
 Everything's changed a lot as we finished our half presentation and enjoyed the mid-semester break during which we realized we had to work remotely for the safety reasons. Our client, Erin, in the virtual meeting confirmed our work so far and suggested that we continue to polish our game and make a short clip about it demonstrating the core features and mechanics.
 
 With her advice, we partly pivoted our focus of the final prototype to instead of making multiple maps, using a relatively short but essential level to showcase our design ideas, art style, and user interaction.
+
+## Future Expectation <a name="future"></a>
+
+Once we have finished this semester-long project we will start thinking of more details about helping the prototype move forward. And for now, we already have some ideas that are very interesting but not seemingly accomplishable in weeks.
+
+- At some point, cells or viruses can travel to areas in the body like the nose where they are ejected from their current game state and are merged into another
+  Perhaps this is a random state, or maybe players can choose where they are going?
+  These new states can either have no players or players already active
