@@ -6,11 +6,12 @@ nav_order: 4
 
 # Game Design
 
-## This page covers the detailed discussion on our game mechanics.
+## This page covers detailed discussions on our games' mechanics.
 
 1. [One-Page Design Document](#one-page)
 2. [Prototype 1: Virus vs. Cells](#virus)
 3. [Prototype 2: Treehouse](#treehouse)
+4. [Immunoo](#immunoo)
 
 ---
 
@@ -96,3 +97,23 @@ Everyone except the game holder has limited playtime during which they can explo
 - The weather changes every day. In sunny days the leaves on tree will produce sunlight while in cloudy or rainy days they are unable to do that.
 - The tree uses one of each type of resources to grow up to three parts of itself.
 - The elves uses two resources of any kind to build facilities on or off the tree.
+
+---
+
+## Immunoo <a name="immunoo"></a>
+
+Immunoo is a multiplayer casual action game with some RPG elements where players acts as white blood cells who must clear the map of biological contaminants (typically viruses) in order to keep the body safe.
+
+### Core Gameplay
+
+Players are granted the freedom of wandering through different levels where they need to find and eat viruses.
+
+### System Design
+
+- Splitting: The players have the chance of splitting the cells and inviting others to join in the game with State Share feature. The players need to find lymph nodes in the game and attach to the lymph nodes in order to split and send the invitation link outside the game. Each new player is put into a separate game state, meaning they will not see each other and enjoy the level to its full.
+- Inheritance: The cell can learn different skills either by collecting power-ups in the game, or when someone shares the link to the player, they will inherit one skill from the parent cell. The skill is saved with player's profile so it will not disappear after leaving the game. The more games you join, the more skills you will obtain.
+- Bloodstream: Bloodstream is a unique game element that acts both a boon and an obstacle to players. Additionally, the bloodstream is rhythmed due to the nature of heartbeat, thus at the right timing the players could use the bloodstream as a help.
+
+### Level Design
+
+The game by concept has a heart map with four integrated chambers. All but the last chamber is designed for single-player experience, with increasing difficulty for players. The last chamber is designated to be the boss fight, with a preparation room which technically serves as a place for players to invite their friends/audience and team up before entering the boss room.
