@@ -94,14 +94,25 @@ The game also has a weather system which adds factors that affect the resources 
 
 ## Pivoting after Halves <a name="pivoting"></a>
 
-Everything's changed a lot as we finished our half presentation and enjoyed the mid-semester break during which we realized we had to work remotely for the safety reasons. Our client, Erin, in the virtual meeting confirmed our work so far and suggested that we continue to polish our game and make a short clip about it demonstrating the core features and mechanics.
+Everything's changed a lot as we did our half presentation and embraced the mid-semester break during which we realized we had to work remotely in light of the situation. Our client, Erin, in the very first virtual meeting acknowledged our work so far and suggested that we continued to polish our game and make a short clip about it demonstrating the core features and mechanics.
 
-With her advice, we partly pivoted our focus of the final prototype to instead of making multiple maps, using a relatively short but essential level to showcase our design ideas, art style, and user interaction.
+With her advice, we partly pivoted our foci for the project:
+
+1. Instead of making a competitive game, to make a PVE rich level highlighting the State Share feature.
+2. Try making a pitch for the game on Stadia platform.
+
+Still, we want a polished prototype that can be showcased to the ETC faculty.
 
 ## Final Prototype <a name="final-prototype"></a>
 
-Once we have finished this semester-long project we will start thinking of more details about helping the prototype move forward. And for now, we already have some ideas that are very interesting but not seemingly accomplishable in weeks.
+Starting week 11 we officially started the agile development process for the final prototype. We set sprint goals for each week and keep doing daily scrum standups (virtually) to make sure everyone is at the same pace and doing things as expected.
 
-- At some point, cells or viruses can travel to areas in the body like the nose where they are ejected from their current game state and are merged into another
-  Perhaps this is a random state, or maybe players can choose where they are going?
-  These new states can either have no players or players already active
+Now that we are taking a big turn in game design, here is how as we figured out to do it:
+
+1. Determine the overall scenario for the new game scene including the most important mechanics, userflow and aesthetics, as done by the whole team discussing collectively and with the client.
+2. The designer and programmer talk about the detail in levels and determine the priority of implementing new mechanics, art assets and other things.
+3. Meanwhile, the UX designer continues to refine the userflow of sharing the state and make new storyboards of attracting players to join the game and the onboarding process.
+
+Purely from a design perspective, the game design change mainly involves:
+
+1. With attracting non-stadia audience in mind, to make the level easier to understand and simplify the control. Additionally, the game will not have built-in gravity system anymore.
