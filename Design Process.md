@@ -131,7 +131,3 @@ Another milestone in week 12 is that, after days of discussion we finally settle
 Meanwhile, the UX designer continues to refine the userflow of sharing the state and make new storyboards of attracting players to join the game and the onboarding process.
 
 In week 13 we managed to integrate what everyone's created so far into Unity and had our first playable demo since the big change.
-
-![Week 13 Demo](https://etc-ditto.github.io/media/process/week13.mp4)
-
-<h5 style="text-align: center;">The demo showing the eating virus feature in week 13.</h5>
