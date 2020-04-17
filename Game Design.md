@@ -8,14 +8,14 @@ nav_order: 4
 
 ## This page covers detailed discussions on our games' mechanics.
 
-1. [One-Page Design Document](#one-page)
+1. [Prototype Phase 1](#phase1)
 2. [Prototype 1: Virus vs. Cells](#virus)
 3. [Prototype 2: Treehouse](#treehouse)
 4. [Immunoo](#immunoo)
 
 ---
 
-## One Page Design Document <a name="one-page"></a>
+## Prototype Phase 1 <a name="phase1"></a>
 
 We had in total five ideas in the first ideation phase and as suggested by the client, we created one-page design document for each to depict the overall mechanics and game flow. In this stage we mainly focused on finding interesting mechanics to implement the State Share feature.
 
@@ -74,10 +74,10 @@ Every separate cell travels in a big map and collects nutrients for the human bo
 - Occasional force fields simulates the blood circulation, and is a map mechanic that allows the cell to travel between distant places.
 - Many platforms that cell can jump onto encourage players to explore the world. There are always more collectible in each map than the level requirement, and the system will award players that make a bigger contribution.
 
-### Next Step
+### Possible Improvements
 
-- More cell subdivisions. Red cells, T-cells, etc.
-- More competitive elements: the cells and virus can fight each other.
+- More cell and enemy subclasses: red cells, T-cells, bacteria, parasite, etc.
+- More exciting elements: the cells and virus can fight each other.
 
 ---
 
