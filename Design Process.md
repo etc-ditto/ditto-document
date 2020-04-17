@@ -10,8 +10,8 @@ nav_order: 3
 
 1. [Research](#research)
 2. [Ideation](#ideation)
-3. [Paper Prototype](#paper-prototype)
-4. [Digital Prototype](#digital-prototype)
+3. [Prototyping Phase 1](#prototype1)
+4. [Prototyping Phase 2](#prototype2)
 5. [Pivoting After Halves](#pivoting)
 6. [Final Prototype](#final-prototype)
 
@@ -32,65 +32,65 @@ We went through each scene on its feasibility, novelty and how close is State Sh
 
 ---
 
-## Paper Prototype <a name="paper-prototype"></a>
+## Prototyping Phase 1 <a name="prototype1"></a>
 
-After narrowing down ideas, we begin making paper prototypes and do playtest both internally and with naive guests. This iteration phase is helpful to solidify our ideas.<br>
+After narrowing down ideas, we began making paper prototypes and doing playtest both internally and with naive guests. This iteration phase is helpful to solidify our ideas.<br>
 We make one page design document for each idea to better illustrate the conception to the audience, especially for those who are not familiar with Stadia. We eventually built 4 paper prototypes as following:
 
 - **Sharing Information (Photo Leap, Haunted House)**: like most multiplayer games, the game synchronizes data and passes the end of last state to the next player.<br>
 - **Geographic/location-based Multiplayer (Animal Inn)**: We think of ways to connect players around the world to play together using State Share. Animal Inn is an idea where people raise pets and "send" them to others for a short time.<br>
 - **State Tagging (Bomb Express)**: To let players pass a game back and forth by delivering the state to the next player after a time period. Our idea was to make a game where player pass ticking bombs like a hot potato.<br>
 
-The shortcomings of some of our ideas is that they are not fully using the feature of State Share: recording complete progress and carry a bunch of information. And we need also to think about the replayability and theme and privacy problems.
+The shortcomings of some of our ideas was that they are not fully highlighting the feature of State Share: to record the full progress and transfer a bunch of information. We also face the problems regarding replayability, theming, and privacy problems.
 
----
+During this stage we also got a lot of valuable feedback from our client, faculty instructors and playtesters. Here is the three criteria that we figured as the key to a (potentially) successful State Share game:
 
-## Learnings
-
-We got a lot of valuable information from our client, faculty advisors and playtesters. Here is the three criteria that we think as the key to a (potentially) successful State Share game:
-
-1. Asymmetrical gameplay is suitable for streamer and audience and well conveys State Share’s idea.
-2. Having a persistent world (like MMO) is state sharable and could let players feel more immersed.
+1. Asymmetrical gameplay is suitable for streamer and audience as it well conveys State Share’s core idea.
+2. Having a persistent world (like MMO games do) is state sharable and could let players feel more immersed.
 3. To make multiplicative distribution rather than transferring a single branch to new players.
    UGC game requires more system design to control the game, and platformers really need decent levels.
 
 ---
 
-## Prototypes before Halves <a name="digital-prototype"></a>
+## Prototyping Phase 2 <a name="prototype2"></a>
 
-After we narrow down ideas into two big categories, we begin to make the demo prototype for the incoming halves in Week 8. We all agree to make a digital prototype for the Virus vs. Cell idea for the following reasons: <br>
+After we narrowed down ideas into two big categories, we began to make the prototypes in higher fidelity to help confirm the idea. During this phase we made a digital prototype and a paper prototype.
+
+### Prototype 1: Virus vs Cell
+
+We all agree to make a digital prototype for the Virus vs. Cell idea for the following reasons: <br>
 
 1.  Some ideas are hard to paper prototype, even for those paper prototype-able ones it does not wholly match the feeling we want. <br>
 2.  Digital prototypes offer insights into controlling and feedback which paper prototype cannot give. <br>
 3.  As the project progresses, we need to settle down on art style and hardware as our final deliverable will be a digital game, so it is good to start early exploring possible approaches for the ideas. <br>
 
-### Game: Virus vs Cell
+In this prototype we are testing many aspects of the game, more specifically:
 
-In this prototype we are testing out much stuff, but more specifically:
-
-1. For designers, to confirm that the level and gameplay works well together and implements State Share as one of the core mechanism.
-2. For engineers, to test technical solutions for State Share (at least faking it) such as separate control for individual player, split screen, and the fundamental splint and merge function.
-3. For artists, to try different ways of simulating responsive, interesting graphics to make the world feel real.
+1.  For designers, to confirm that the level and gameplay works well together and implements State Share as one of the core mechanism.
+2.  For engineers, to test technical solutions for State Share (at least faking it) such as separate control for individual player, split screen, and the fundamental splint and merge function.
+3.  For artists, to try different ways of simulating responsive, interesting graphics to make the world feel real.
 
 ![Cells](https://etc-ditto.github.io/media/process/cells-1.png)
 
 <h5 style="text-align: center;">Map that we prepare for the playtest before halves.</h5>
 In this early version we are building the first part of the idea: the virus camp collect power-ups and prepare for the fight with cells. The player can explore different levels and try getting collectibles many as possible by jumping in this 1-minute experience.
 
-### Game: Treehouse
+### Prototype 2: Treehouse
 
-On the other side, we would like to make a paper prototype for the second idea for the following reasons:
+On the other side, we wanted to make a paper prototype for the second idea for the following reasons:
 
-1. We actually only have less than 2 weeks before halves for the two prototypes, and we want the project to be on a good balance without leaving any of two prototypes behind.
-2. The Treehouse idea is feasible for paper prototyping as its core gameplay is pretty clear and understandable even on paper.
-3. We don't need to test every details. Instead we focus on the "share" part and everything we do for paper prototype can be transferred easily to Unity.
+1. We only had less than 2 weeks on our schedule before halves, and we wanted the project to be on a good balance without leaving any of two prototypes behind.
+2. The treehouse idea is feasible for paper prototyping as its core gameplay is pretty clear and understandable even on paper.
+3. We don't need to test out every detail. Instead we focus on the "share" part and everything we do for paper prototype can be transferred easily to Unity.
 
-We would like to theme this idea as growing a tree: there is one immortal elder in charge of the whole ecosystem, and they invite elves (basically workers) to play the game for a limited time. They work together to collect resource underground, branch the tree, and build houses and facilities. When an elf dies, they can pass their data to another player but also keep their work remaining in the world.<br>
+We came up with the theme of growing a treehouse: there is one immortal elder in charge of the whole ecosystem, and they invite elves (also workers) to play the game for a limited time. They work together to collect resource underground, branch the tree, and build houses and facilities. When an elf dies, they can pass their data to another player but also keep their work remaining in the world.<br>
 The game also has a weather system which adds factors that affect the resources and have random events.
 
 ![Treehouse](https://etc-ditto.github.io/media/process/treehouse-1.jpg)
 
 <h5 style="text-align: center;">The paper prototype of our Treehouse idea.</h5>
+
+---
 
 ## Pivoting after Halves <a name="pivoting"></a>
 
@@ -103,16 +103,35 @@ With her advice, we partly pivoted our foci for the project:
 
 Still, we want a polished prototype that can be showcased to the ETC faculty.
 
+---
+
 ## Final Prototype <a name="final-prototype"></a>
 
 Starting week 11 we officially started the agile development process for the final prototype. We set sprint goals for each week and keep doing daily scrum standups (virtually) to make sure everyone is at the same pace and doing things as expected.
 
-Now that we are taking a big turn in game design, here is how as we figured out to do it:
+We first sat down together to determine the overall scenario for the new game scene starting from the most important mechanics, userflow and aesthetics, as done by the whole team discussing collectively and with the client. The designer and programmer talk about the detail in levels and determine the priority of implementing new mechanics, art assets and other things.
 
-1. Determine the overall scenario for the new game scene including the most important mechanics, userflow and aesthetics, as done by the whole team discussing collectively and with the client.
-2. The designer and programmer talk about the detail in levels and determine the priority of implementing new mechanics, art assets and other things.
-3. Meanwhile, the UX designer continues to refine the userflow of sharing the state and make new storyboards of attracting players to join the game and the onboarding process.
+![Level Concept](https://etc-ditto.github.io/media/process/level-1.png)
 
-Purely from a design perspective, the game design change mainly involves:
+<h5 style="text-align: center;">A screenshot in Blender showing the concept art for map decorations.</h5>
 
-1. With attracting non-stadia audience in mind, to make the level easier to understand and simplify the control. Additionally, the game will not have built-in gravity system anymore.
+From the aesthetic side we also began researching the approaches of representing the "cute evil" theme:
+
+The game design change mainly involves:
+
+1. With attracting non-stadia audience in mind, to make the level easier to understand and simplify the control. Additionally, the game will not have built-in gravity anymore.
+2. The game shall highlight the interaction between players because they now can see each other in the game. This brings changes to the level layout and boss design.
+
+![In-engine prototype](https://etc-ditto.github.io/media/process/level-2.png)
+
+<h5 style="text-align: center;">A screenshot in Unity with the level in progress in week 12.</h5>
+
+Another milestone in week 12 is that, after days of discussion we finally settled on the official name of our game: Immunoo, which deprives from immunity but sounds cuter. We also created the logo graphics for the title.
+
+Meanwhile, the UX designer continues to refine the userflow of sharing the state and make new storyboards of attracting players to join the game and the onboarding process.
+
+In week 13 we managed to integrate what everyone's created so far into Unity and had our first playable demo since the big change.
+
+![Week 13 Demo](https://etc-ditto.github.io/media/process/week13.mp4)
+
+<h5 style="text-align: center;">The demo showing the eating virus feature in week 13.</h5>
