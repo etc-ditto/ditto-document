@@ -10,7 +10,7 @@ nav_order: 7
 
 1. [LocoRoco](#locoroco)
 2. [One Hour One Life](#one-hour)
-3. [Concept Art](#concept-art)
+3. [Concept Art References](#concept-art)
 
 ## LocoRoco <a name="locoroco"></a>
 
@@ -71,6 +71,7 @@ LocoRoco is a platformer game developed by SCE Japan Studio. The player starts w
 
 ---
 
-## Concept Art <a name="concept-art"></a>
+## Concept Art References <a name="concept-art"></a>
 
+We are also researching similar games' art style. Here is the deck of slides that records our findings so far.
 [Slide of Visual Concept](https://docs.google.com/presentation/d/1_xwAPqd1bZhTzXND7o1ZQkxtBMlUvUiHlpaLceLsvUE)

@@ -6,21 +6,21 @@ nav_order: 4
 
 # Game Design
 
-## This page covers detailed discussions on our games' mechanics.
+## This page covers detailed discussions on our prototypes' game design.
 
-1. [Prototype Phase 1](#phase1)
+1. [Prototyping Phase 1](#phase1)
 2. [Prototype 1: Virus vs. Cells](#virus)
 3. [Prototype 2: Treehouse](#treehouse)
 4. [Immunoo](#immunoo)
 
 ---
 
-## Prototype Phase 1 <a name="phase1"></a>
+## Prototyping Phase 1 <a name="phase1"></a>
 
-We had in total five ideas in the first ideation phase and as suggested by the client, we created one-page design document for each to depict the overall mechanics and game flow. In this stage we mainly focused on finding interesting mechanics to implement the State Share feature.
+We had in total five ideas in the first prototyping phase. In this stage we mainly focused on finding interesting mechanics where the State Share feature is suitable to be implemented. Also per our client's suggestion, we created one-page design documentation for each to depict the overall mechanics and game flow.
 
-During quarter walkaround, we showed and explained these five documents to our guests and faculty and students who also gave positive feedback and thoughtful opinions.
-Check the hyperlink to see each. <br>
+During quarter walkaround, we showed and explained these five documents to our guests who also gave positive feedback and thoughtful opinions.
+Click on the hyperlink to find out. <br>
 
 - <a href="https://etc-ditto.github.io/media/process/virus-cell.png" target="_blank">Virus vs Cell</a>
 - <a href="https://etc-ditto.github.io/media/process/animal-inn.png" target="_blank">Animal Inn</a>
@@ -102,18 +102,31 @@ Everyone except the game holder has limited playtime during which they can explo
 
 ## Immunoo <a name="immunoo"></a>
 
-Immunoo is a multiplayer casual action game with some RPG elements where players acts as white blood cells who must clear the map of biological contaminants (typically viruses) in order to keep the body safe.
+Immunoo is a multiplayer casual action game with some RPG elements where players team up as white blood cells who must clear the map of biological contaminants (typically viruses) in order to keep the body safe.
 
 ### Core Gameplay
 
-Players are granted the freedom of wandering through different levels where they need to find and eat viruses.
+Players team up to go through levels in a heart-shaped map and try to eat viruses and beat the final boss.
+
+### Expected Number of Players
+
+The question on the numbers of our game was an important one we need to answer: due to the nature of State Share's feature that can drag people into the game, it would be great if some game mechanism is more multiplayer-friendly. However, we don't want the number too large which may make the map too crowded and impact everyone's experience. We especially
+
+We figured out that six players would be an ideal number, with a minium of four and a maximum of eight. The game will be still playable with less than four or more than eight, but in some area the game may not feel as smooth.
+
+Having this interval in mind we are also trying to dynamically adjust the difficulty in the final boss battle, like increasing or decreasing the child viruses' number.
 
 ### System Design
 
-- Splitting: The players have the chance of splitting the cells and inviting others to join in the game with State Share feature. The players need to find lymph nodes in the game and attach to the lymph nodes in order to split and send the invitation link outside the game. Each new player is put into a separate game state, meaning they will not see each other and enjoy the level to its full.
-- Inheritance: The cell can learn different skills either by collecting power-ups in the game, or when someone shares the link to the player, they will inherit one skill from the parent cell. The skill is saved with player's profile so it will not disappear after leaving the game. The more games you join, the more skills you will obtain.
-- Bloodstream: Bloodstream is a unique game element that acts both a boon and an obstacle to players. Additionally, the bloodstream is rhythmed due to the nature of heartbeat, thus at the right timing the players could use the bloodstream as a help.
+- **State Share Replication**: The players have the chance of splitting the cells and inviting others to join in the game with State Share feature. The players need to find lymph nodes in the game and attach to the lymph nodes in order to split and send the invitation link outside the game. Each new player is put into a separate game state, meaning they will not see each other and enjoy the level to its full.
+- **Inheritance**: The cell can learn different skills either by collecting power-ups in the game, or when someone shares the link to the player, they will inherit one skill from the parent cell. The skill is saved with player's profile so it will not disappear after leaving the game. The more games you join, the more skills you will obtain.
+- **More Cells, More Power!**: Players will eliminate viruses from the map the same way white blood cells do in real life: by eating them. The gameplay is oriented around absorbing viruses and their chemical trails to both eliminate contaminants and recruit more players into the game state. Some mechanics require multiple players to collectively complete and will offer better rewards.
+- **Environmental Effects**: Since the game take place inside human body, we are creating each map with its own unique qualities and hazards. For instance, in the heart, players are subject to the rhythms of the blood stream. Bloodstream is a unique game element that acts both a boon and an obstacle to players, dependent on the timing. But in the stomach, players must avoid stores of acid found around the map.
 
 ### Level Design
 
-The game by concept has a heart map with four integrated chambers. All but the last chamber is designed for single-player experience, with increasing difficulty for players. The last chamber is designated to be the boss fight, with a preparation room which technically serves as a place for players to invite their friends/audience and team up before entering the boss room.
+The game by concept has a heart map with four integrated chambers. All chambers are design for multiplayer experience, with increasing demand for skill mastery from players (IPM). The last chamber is designated to be the boss fight, with a preparation room which technically serves as a place for players to invite their friends/audience and team up before entering the boss room.
+
+![In-engine prototype](https://etc-ditto.github.io/media/process/level-5.png)
+
+<h5 style="text-align: center;">The level design of heart.</h5>
