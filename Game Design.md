@@ -127,7 +127,7 @@ Having this interval in mind we are also trying to dynamically adjust the diffic
 
 The game by concept has a heart map with four integrated chambers.
 
-![In-engine prototype](https://etc-ditto.github.io/media/process/level-3.png)
+![In-engine prototype](https://etc-ditto.github.io/media/process/level-all.png)
 
 <h5 style="text-align: center;">The level design of heart.</h5>
 
