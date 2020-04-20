@@ -37,7 +37,7 @@ We ran a playtest in week 7 just before the halves to make sure our design reall
 ### Virus vs. Cells
 
 **Observations**:<br>
-The gameplay is pretty quick because the level is short and more importantly, the players all had a vision of what they were expected to do even if we didn't tell them. <br>However, when they reached the first splitting point, they are not fully aware of the splitting mechanism so they reacted: "Is this a bug?"<br>
+The gameplay is pretty quick because the level is short and more importantly, the players all had a vision of what they were expected to do even we didn't tell them. <br>However, when they reached the first splitting point, they are not fully aware of the splitting mechanism so they reacted: "Is this a bug?"<br>
 And for the control part, it wasn't immediately obvious that they could double jump.<br>
 **Gameplay**:<br>
 "Jumping and puzzle-solving."<br>"Kinda Pac-man-y, and a little bit of puzzle solving, but there was only one place where that applied."<br>

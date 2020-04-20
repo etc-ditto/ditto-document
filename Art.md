@@ -18,7 +18,7 @@ nav_order: 6
 
 We wanted a "cute evil" aesthetic feeling for the game, so one important progress we made is to use human-like facial expressions on the cells and viruses.
 
-![Cell and Virus](https://etc-ditto.github.io/media/art/concept-character.png)
+![Cell and Virus](https://etc-ditto.github.io/media/art/character.png)
 
  <h5 style="text-align: center;">The concept art for the white blood cell and virus.</h5>
 
