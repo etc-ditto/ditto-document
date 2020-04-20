@@ -125,8 +125,14 @@ Having this interval in mind we are also trying to dynamically adjust the diffic
 
 ### Level Design
 
-The game by concept has a heart map with four integrated chambers. All chambers are design for multiplayer experience, with increasing demand for skill mastery from players (IPM). The last chamber is designated to be the boss fight, with a preparation room which technically serves as a place for players to invite their friends/audience and team up before entering the boss room.
+The game by concept has a heart map with four integrated chambers.
 
-![In-engine prototype](https://etc-ditto.github.io/media/process/level-5.png)
+![In-engine prototype](https://etc-ditto.github.io/media/process/level-3.png)
 
 <h5 style="text-align: center;">The level design of heart.</h5>
+
+Inspired by our client's suggestion, we use Nintendo's IPM model (Introduce, Practice, Master) as a principle in designing the levels. All chambers are designed for multiplayer experience, with increasing demands for skill mastery from players. The increasing difficulty mainly means more enemies and more complex mechanics in the later chambers.
+
+The last chamber is designed to be the boss fight room, with a preparation room in front of it which technically serves as a place for players to invite their friends/audience and team up before entering the boss room.
+
+The boss fight's mechanics are partly different from previous experience because we want to make it more intense and make players feel the connection between each other and the necessity of sharing and helping others. The powerful mother virus is in invulnerable at the beginning, players will have to eat all the surrounding child viruses in order to make it vulnerable and surround it again to disintegrate and "kill" it.
