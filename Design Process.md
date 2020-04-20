@@ -20,13 +20,13 @@ nav_order: 3
 ## Research <a name="research"></a>
 
 The main purpose of researching is to get the knowledge of Stadia and State Share and figure out several possible usage situations.<br>
-As Stadia just came out a few months ago and the team are still working to realize State Share feature, we started off mainly by searching the internet for the documentation and demo videos of State Share. There are a few resources we found very useful: the first is [[Stadia development blog](https://stadia.dev/intl/en_us/blog/) and [State Share explanation](https://stadia.dev/blog/the-magic-of-state-share-explained/) where we can have a broad view of what Stadia is, how State Share works and several possible usage of the function.
+As Stadia just came out a few months ago and the team are still working to realize State Share feature, we started off mainly by searching the internet for the documentation and demo videos of State Share. There are a few resources we found very useful: the first is [Stadia development blog](https://stadia.dev/intl/en_us/blog/) and [State Share explanation](https://stadia.dev/blog/the-magic-of-state-share-explained/) where we can have an overview of what Stadia is, how State Share works and several possible usages of that function.
 
 ---
 
 ## Ideation <a name="ideation"></a>
 
-During ideation phase we specified the genre that could potentially fit the situations mentioned in our research. Our approach was to think of ideas at a higher level that use State Share as a main mechanism. There were 10 scenes that we think could be possible for implementing State Share. <br>
+During the ideation phase we specified the genre that could potentially fit the situations mentioned in our research. Our approach was to think of ideas at a higher level that use State Share as a main mechanism. There were 10 scenes that we think could be possible for implementing State Share. <br>
 We went through each scene on its feasibility, novelty and how close is State Share related to the theme. And we choose five categories to move on to the theming stage where we wanted to come up with more specific gameplay that uses the feature. By the end of Week 2 we got the following: geographic/location-based, community-based coop, asymmetric multiplayer, time travel/version control, transition between devices.<br> As part of our plan and client's suggestion, We planned to create a one-page design document for each and try making paper prototypes.
 ![Ideation](https://etc-ditto.github.io/media/process/idea-1.jpg)
 
