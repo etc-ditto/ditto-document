@@ -37,11 +37,14 @@ We went through each scene on its feasibility, novelty and how close is State Sh
 After narrowing down ideas, we began making paper prototypes and doing playtest both internally and with naive guests. This iteration phase is helpful to solidify our ideas.<br>
 We make one page design document for each idea to better illustrate the conception to the audience, especially for those who are not familiar with Stadia. We eventually built 4 paper prototypes as following:
 
-- **Sharing Information (Photo Leap, Haunted House)**: like most multiplayer games, the game synchronizes data and passes the end of last state to the next player.<br>
-- **Geographic/location-based Multiplayer (Animal Inn)**: We think of ways to connect players around the world to play together using State Share. Animal Inn is an idea where people raise pets and "send" them to others for a short time.<br>
-- **State Tagging (Bomb Express)**: To let players pass a game back and forth by delivering the state to the next player after a time period. Our idea was to make a game where player pass ticking bombs like a hot potato.<br>
+- **Sharing Information (<a href="https://etc-ditto.github.io/media/process/photo-leap.png" target="_blank">Photo Leap</a>, <a href="https://etc-ditto.github.io/media/process/manor.png" target="_blank">Escape from Timelock Manor</a>)**: like most multiplayer games, the game synchronizes data and passes the end of last state to the next player.<br>
+- **Geographic/location-based Multiplayer (<a href="https://etc-ditto.github.io/media/process/animal-inn.png" target="_blank">Animal Inn</a>)**: We think of ways to connect players around the world to play together using State Share. Animal Inn is an idea where people raise pets and "send" them to others for a short time.<br>
+- **State Tagging (<a href="https://etc-ditto.github.io/media/process/bomb.png" target="_blank">Bomb Express</a>)**: To let players pass a game back and forth by delivering the state to the next player after a time period. Our idea was to make a game where player pass ticking bombs like a hot potato.<br>
+- **Go Viral (<a href="https://etc-ditto.github.io/media/process/virus-cell.png" target="_blank">Virus vs Cell</a>)**: The idea was mainly letting as many people as possible join a battle between viruses and cells, preferably with their favorite streamers, in a virtual mass battle.
 
-The shortcomings of some of our ideas was that they are not fully highlighting the feature of State Share: to record the full progress and transfer a bunch of information. We also face the problems regarding replayability, theming, and privacy problems.
+In this stage we mainly focused on finding interesting mechanics where the State Share feature is suitable to be implemented. Also per our client's suggestion, we created one-page design documentation for each to depict the overall mechanics and game flow.
+
+The shortcomings of almost all of our ideas at this stage was that they are not fully highlighting the feature of State Share: to record the full progress and transfer a bunch of information. We also face the problems regarding replayability, theming, and privacy problems.
 
 During this stage we also got a lot of valuable feedback from our client, faculty instructors and playtesters. Here is the three criteria that we figured as the key to a (potentially) successful State Share game:
 
@@ -56,7 +59,7 @@ During this stage we also got a lot of valuable feedback from our client, facult
 
 After we narrowed down ideas into two big categories, we began to make the prototypes in higher fidelity to help confirm the idea. During this phase we made a digital prototype and a paper prototype.
 
-### Prototype 1: Virus vs Cell
+### Prototype 1: <a href="https://etc-ditto.github.io/game-design-virus.html" >Virus vs. Cell</a>
 
 We all agree to make a digital prototype for the Virus vs. Cell idea for the following reasons: <br>
 
@@ -75,7 +78,7 @@ In this prototype we are testing many aspects of the game, more specifically:
 <h5 style="text-align: center;">Map that we prepare for the playtest before halves.</h5>
 In this early version we are building the first part of the idea: the virus camp collect power-ups and prepare for the fight with cells. The player can explore different levels and try getting collectibles many as possible by jumping in this 1-minute experience.
 
-### Prototype 2: Treehouse
+### Prototype 2: <a href="https://etc-ditto.github.io/game-design-treehouse.html" >Treehouse</a>
 
 On the other side, we wanted to make a paper prototype for the second idea for the following reasons:
 
@@ -85,10 +88,6 @@ On the other side, we wanted to make a paper prototype for the second idea for t
 
 We came up with the theme of growing a treehouse: there is one immortal elder in charge of the whole ecosystem, and they invite elves (also workers) to play the game for a limited time. They work together to collect resource underground, branch the tree, and build houses and facilities. When an elf dies, they can pass their data to another player but also keep their work remaining in the world.<br>
 The game also has a weather system which adds factors that affect the resources and have random events.
-
-![Treehouse](https://etc-ditto.github.io/media/process/treehouse-1.jpg)
-
-<h5 style="text-align: center;">The paper prototype of our Treehouse idea.</h5>
 
 ---
 
