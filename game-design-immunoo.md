@@ -9,10 +9,11 @@ nav_order: 6
 ## This page introduces every bit of Immunoo, our final prototype's game design!
 
 1. [Overview](#overview)
-2. [System Design](#system)
-3. [Level Design](#level)
-4. [Update Plan](#plan)
-5. [Post Mortem](#pm)
+2. [Player Number](#number)
+3. [System Design](#system)
+4. [Level Design](#level)
+5. [Update Plan](#plan)
+6. [Post Mortem](#pm)
 
 ## Overview <a name="overview"></a>
 
@@ -20,9 +21,9 @@ Immunoo is a multiplayer casual action game with some RPG elements where players
 
 ---
 
-## Expected Number of Players
+## Expected Number of Players <a name="number"></a>
 
-The question on the numbers of our game was an important one we need to answer: due to the nature of State Share's feature that can drag people into the game, it would be great if some game mechanism is more multiplayer-friendly. However, we don't want the number too large which may make the map too crowded and impact everyone's experience. We especially
+The question on the numbers of our game was an important one we need to answer: due to the nature of State Share's feature that can drag people into the game, it would be great if some game mechanism is more multiplayer-friendly. However, we don't want the number too large which may make the map too crowded and impact everyone's experience.
 
 We figured out that six players would be an ideal number, with a minium of four and a maximum of eight. The game will be still playable with less than four or more than eight, but in some area the game may not feel as smooth.
 
@@ -53,9 +54,23 @@ The last chamber is designed to be the boss fight room, with a preparation room 
 
 The boss fight's mechanics are partly different from previous experience because we want to make it more intense and make players feel the connection between each other and the necessity of sharing and helping others. The powerful mother virus is in invulnerable at the beginning, players will have to eat all the surrounding child viruses in order to make it vulnerable and surround it again to disintegrate and "kill" it.
 
+![Chamber 1](https://etc-ditto.github.io/media/process/chamber-1.png)
+Chamber 1 is the "Introduce" level. The players get carried by the bloodstream to board the level, and follow along the chemical signals left by the viruses to track down them. The nymph node is placed at a obvious location so players would be attracted and try to use it. This level is relatively simple and straight forward, but there's also a skill collectible for curious players to try to find.
+
+![Chamber 2](https://etc-ditto.github.io/media/process/chamber-2.png)
+Chamber 2 is the "Practice" level. We continue to introduce some more complex mechanics there such as the magnetism power. As players are more familiar with the virus's movement pattern (they escape when cells are near), we put more viruses in the second chamber to practice players' skills.
+
+![Chamber 3](https://etc-ditto.github.io/media/process/chamber-3.png)
+Chamber 3 is the "Master" level. More viruses are there and as we introduce the camouflage mechanic, we are asking players to be more aware of the surrounding environment to find collectibles that allows them to get the "supervision" skill to find the disguised virus. The environmental effect is also more challenging there.
+
+![Chamber 4](https://etc-ditto.github.io/media/process/chamber-4.png)
+Chamber 4 in our plan is the to-be boss fight level where we introduce mass battle mechanics and ask players to invite people to team up for the final battle. The mother virus has new skills child viruses don't have, but in general their skill pattern will be understandable if player have successfully gone through the previous levels because it's still asking for cell's movement control skills.
+
 ---
 
 ## Update Plan <a name="plan"></a>
+
+We also have made the schedule for future DLC (downloadable content) releases.
 
 ---
 

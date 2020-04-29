@@ -108,7 +108,7 @@ Still, we want a polished prototype that can be showcased to the ETC faculty.
 
 Starting week 11 we officially started the agile development process for the final prototype. We set sprint goals for each week and keep doing daily scrum standups (virtually) to make sure everyone is at the same pace and doing things as expected.
 
-We first sat down together to determine the overall scenario for the new game scene starting from the most important mechanics, userflow and aesthetics, as done by the whole team discussing collectively and with the client. The designer and programmer talk about the detail in levels and determine the priority of implementing new mechanics, art assets and other things.
+During discussions with our client, we had set a list of priority for things we wanted to do. Thus We first sat down together to determine the overall scenario for the new game scene starting from the most important mechanics, userflow and aesthetics, as done by the whole team discussing collectively and with the client. The designer and programmer talk about the detail in levels and determine the priority of implementing new mechanics, art assets and other things.
 
 ![Level Concept](https://etc-ditto.github.io/media/process/level-1.png)
 
@@ -125,8 +125,10 @@ The game design change mainly involves:
 
 <h5 style="text-align: center;">A screenshot in Unity with the level in progress in week 12.</h5>
 
-Another milestone in week 12 is that, after days of discussion we finally settled on the official name of our game: Immunoo, which deprives from immunity but sounds cuter. We also created the logo graphics for the title.
+In week 12 we mainly focused on the overall visual style and the name issue. We created the logo graphics for the title, Immunoo, which deprives from immunity but sounds cuter.
 
 Meanwhile, the UX designer continues to refine the userflow of sharing the state and make new storyboards of attracting players to join the game and the onboarding process.
 
-In week 13 we managed to integrate what everyone's created so far into Unity and had our first playable demo since the big change.
+By the end of week 13 we had settled on the most important mechanics in our game: replication, inheritance, more cells more power, and environmental effects. We in week 14 collectively confirmed specific skills we want the players to have in current game and future downloadable contents.
+
+Week 15 was the last week we actually had to further the development. We implemented magnetism skill in game and refined level layout to better fit what the client suggested, "Introduce Practice Master" model, essentially having an increasing demand for player's skills in levels.

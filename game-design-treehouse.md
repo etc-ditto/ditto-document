@@ -36,7 +36,7 @@ Everyone except the game holder has limited playtime during which they can explo
 
 ![Treehouse](https://etc-ditto.github.io/media/process/treehouse-1.jpg)
 
-<h5 style="text-align: center;">The paper prototype of our Treehouse idea.</h5>
+<h5 style="text-align: center;">The paper prototype of our Treehouse prototype.</h5>
 
 ---
 
