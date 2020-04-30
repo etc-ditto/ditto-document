@@ -54,16 +54,16 @@ The last chamber is designed to be the boss fight room, with a preparation room 
 
 The boss fight's mechanics are partly different from previous experience because we want to make it more intense and make players feel the connection between each other and the necessity of sharing and helping others. The powerful mother virus is in invulnerable at the beginning, players will have to eat all the surrounding child viruses in order to make it vulnerable and surround it again to disintegrate and "kill" it.
 
-![Chamber 1](https://etc-ditto.github.io/media/process/chamber-1.png)
+![Chamber 1](https://etc-ditto.github.io/media/process/chamber1.png)
 Chamber 1 is the "Introduce" level. The players get carried by the bloodstream to board the level, and follow along the chemical signals left by the viruses to track down them. The nymph node is placed at a obvious location so players would be attracted and try to use it. This level is relatively simple and straight forward, but there's also a skill collectible for curious players to try to find.
 
-![Chamber 2](https://etc-ditto.github.io/media/process/chamber-2.png)
+![Chamber 2](https://etc-ditto.github.io/media/process/chamber2.png)
 Chamber 2 is the "Practice" level. We continue to introduce some more complex mechanics there such as the magnetism power. As players are more familiar with the virus's movement pattern (they escape when cells are near), we put more viruses in the second chamber to practice players' skills.
 
-![Chamber 3](https://etc-ditto.github.io/media/process/chamber-3.png)
+![Chamber 3](https://etc-ditto.github.io/media/process/chamber3.png)
 Chamber 3 is the "Master" level. More viruses are there and as we introduce the camouflage mechanic, we are asking players to be more aware of the surrounding environment to find collectibles that allows them to get the "supervision" skill to find the disguised virus. The environmental effect is also more challenging there.
 
-![Chamber 4](https://etc-ditto.github.io/media/process/chamber-4.png)
+![Chamber 4](https://etc-ditto.github.io/media/process/chamber4.png)
 Chamber 4 in our plan is the to-be boss fight level where we introduce mass battle mechanics and ask players to invite people to team up for the final battle. The mother virus has new skills child viruses don't have, but in general their skill pattern will be understandable if player have successfully gone through the previous levels because it's still asking for cell's movement control skills.
 
 ---
