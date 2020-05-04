@@ -34,7 +34,14 @@ Having this interval in mind we are also trying to dynamically adjust the diffic
 ## System Design <a name="system"></a>
 
 - **State Share Replication**: The players have the chance of splitting the cells and inviting others to join in the game with State Share feature. The players need to find lymph nodes in the game and attach to the lymph nodes in order to split and send the invitation link outside the game. Each new player is put into a separate game state, meaning they will not see each other and enjoy the level to its full.
-- **Inheritance**: The cell can learn different skills either by collecting power-ups in the game, or when someone shares the link to the player, they will inherit one skill from the parent cell. The skill is saved with player's profile so it will not disappear after leaving the game. The more games you join, the more skills you will obtain.
+- **Skill Inheritance**: The cell can learn different skills either by collecting power-ups in the game, or when someone shares the link to the player, they will inherit one skill from the parent cell. The skill is saved with player's profile so it will not disappear after leaving the game. The more games you join, the more skills you will obtain.
+  For the heart level in our prototype there are three example skills in effect:
+  - Supervision: cells with Supervision are able to see viruses in disguise, allowing other cells to eat them.
+  - Magnetism: Virus will escape into narrow corners of the map where cell can not reach. Use magnetic power to pull them out so your teammates can eat them all.
+  - Antibodies: cells can use antibodies to leave a trail to guide other cells and mark virus so other cells can see it.
+
+Players can have a pool of skills but only one of them can be activated at the same time, meaning that they need to work together with different abilities to help each other.
+
 - **More Cells, More Power!**: Players will eliminate viruses from the map the same way white blood cells do in real life: by eating them. The gameplay is oriented around absorbing viruses and their chemical trails to both eliminate contaminants and recruit more players into the game state. Some mechanics require multiple players to collectively complete and will offer better rewards.
 - **Environmental Effects**: Since the game take place inside human body, we are creating each map with its own unique qualities and hazards. For instance, in the heart, players are subject to the rhythms of the blood stream. Bloodstream is a unique game element that acts both a boon and an obstacle to players, dependent on the timing. But in the stomach, players must avoid stores of acid found around the map.
 
@@ -70,7 +77,17 @@ Chamber 4 in our plan is the to-be boss fight level where we introduce mass batt
 
 ## Update Plan <a name="plan"></a>
 
-We also have made the schedule for future DLC (downloadable content) releases.
+We also have made the schedule for future DLC (downloadable content) releases. Our current plan for the game development is that we have three maps for the initial release: the Heart, the Stomach, and the Lungs. And there will be three new maps in the incoming updates: the Intestines, the Brain, and the Kidneys. And here's the new enemies and new skills for the each map:
+
+- The Intestines:
+  - New enemy type: Salmonella
+  - New skill: Really Sticky (stick to other white blood cells to break through obstacles)
+- The Brain:
+  - New enemy type: Brain-eating amoeba
+  - New skill: Freeze! (slow down enemies for a short period of time)
+- The Kidneys:
+  - New enemy type: E. coli
+  - New skill: Boost (use adrenaline for a short speed boost)
 
 ---
 
