@@ -41,3 +41,5 @@ Everyone except the game holder has limited playtime during which they can explo
 ---
 
 ## Post Mortem <a name="pm"></a>
+
+Almost all playtesters agreed that the game was designed in a quite novel way to encourage people to communicate and share information with each other, and we're satisfied that most players seemed engaged throughout the whole process. For this one, when comparing to Virus vs. Cell on which one to continue to develop in the second half of the semester, we just found it more technically challenging if we wanted to fully implement the features in digital prototype. There are a lot of cool things we wanted to do in Treehouse (and there are already a lot)

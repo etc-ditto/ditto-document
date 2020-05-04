@@ -59,5 +59,7 @@ Every separate cell travels in a big map and collects nutrients for the human bo
 
 ## Post Mortem <a name="pm"></a>
 
+Players seemed engaged in the game and they all understood the goal of the game because the level was short and collectibles are really obvious. We figured that for the prototype itself, Virus vs. Cell was successful as it clearly conveyed most of its gameplay; for the State Share feature there is still something we could work on to make it feel smoother and more rewarding:
+
 - More cell and enemy subclasses: red cells, T-cells, bacteria, parasite, etc.
 - More exciting elements: the cells and virus can fight each other.
