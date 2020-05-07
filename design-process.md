@@ -114,12 +114,13 @@ During discussions with our client, we had set a list of priority for things we 
 
 <h5 style="text-align: center;">A screenshot in Blender showing the concept art for map decorations.</h5>
 
-From the aesthetic side we also began researching the approaches of representing the "cute evil" theme:
+From the aesthetic side we also began researching the approaches of representing the "cute evil" theme.
 
 The game design change mainly involves:
 
 1. With attracting non-stadia audience in mind, to make the level easier to understand and simplify the control. Additionally, the game will not have built-in gravity anymore.
 2. The game shall highlight the interaction between players because they now can see each other in the game. This brings changes to the level layout and boss design.
+3. The game now is based on PvE content, thus we had more freedom in creating different types of cells and enemies and more interesting mechanics. This also changed our level design because we don't need to balance the two sides.
 
 ![In-engine prototype](https://etc-ditto.github.io/media/process/level-2.png)
 
@@ -132,3 +133,7 @@ Meanwhile, the UX designer continues to refine the userflow of sharing the state
 By the end of week 13 we had settled on the most important mechanics in our game: replication, inheritance, more cells more power, and environmental effects. We in week 14 collectively confirmed specific skills we want the players to have in current game and future downloadable contents.
 
 Week 15 was the last week we actually had to further the development. We implemented magnetism skill in game and refined level layout to better fit what the client suggested, "Introduce Practice Master" model, essentially having an increasing demand for player's skills in levels.
+
+ <video controls="true" allowfullscreen="true" >
+    <source src="/media/process/final-video.mp4" type="video/mp4">
+  </video>
