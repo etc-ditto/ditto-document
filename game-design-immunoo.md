@@ -9,11 +9,10 @@ nav_order: 6
 ## This page introduces every bit of Immunoo, our final prototype's game design!
 
 1. [Overview](#overview)
-2. [Player Number](#number)
+2. [Number of Players](#number)
 3. [System Design](#system)
 4. [Level Design](#level)
-5. [Update Plan](#plan)
-6. [Post Mortem](#pm)
+5. [Maps](#maps)
 
 ## Overview <a name="overview"></a>
 
@@ -75,20 +74,34 @@ Chamber 4 in our plan is the to-be boss fight level where we introduce mass batt
 
 ---
 
-## Update Plan <a name="plan"></a>
+## Maps <a name="maps"></a>
+
+We are expecting to release the game with three initial maps - the Heart, the Stomach, and the Lungs. Here are the environmental effects, enemy types and skills designed for each map:
+
+- The Heart:
+  - Environmental Effect: Bloodstream
+  - Enemy type: general viruses, disguised viruses (need supervision skill to find them)
+  - Skills: Supervision, Magnetism, and Antibodies as mentioned above.
+- The Stomach:
+  - Environmental Effects: Acid (when cell or normal virus touches it, they get damaged), food particles as obstacles
+  - New enemy type: H. Pylori (a acid-proof bacteria that can cause the stomach produce too much acid)
+  - New skills: Hardened Membrane (improve the cell membrane to obtain temporary acid proof), Intimidate (force the viruses to run away from you so they may touch the acid)
+- The Lungs:
+  - Environmental Effects: Alveoli (allow cells/virus to travel across capillaries), Smoke (environmental hazards, can block the map and decrease alveoli’s ability of exchanging oxygen)
+  - New enemy type: swine flu virus (they move faster than normal viruses and can easily travel across capillaries, making it harder to catch them all)
+  - New skills: Air Bullet (consumes some oxygen to shoot air bullets that can disintegrate a cluster of viruses), Enrage (cell temporarily consumes a lot of oxygen to greatly enlarge itself, but will get smaller over time)
 
 We also have made the schedule for future DLC (downloadable content) releases. Our current plan for the game development is that we have three maps for the initial release: the Heart, the Stomach, and the Lungs. And there will be three new maps in the incoming updates: the Intestines, the Brain, and the Kidneys. And here's the new enemies and new skills for the each map:
 
 - The Intestines:
   - New enemy type: Salmonella
-  - New skill: Really Sticky (stick to other white blood cells to break through obstacles)
+  - New skill: Really Sticky (stick to other white blood cells to break through obstacles), Call for help (ask nearby good bacteria controlled by AI to join you)
 - The Brain:
-  - New enemy type: Brain-eating amoeba
-  - New skill: Freeze! (slow down enemies for a short period of time)
+  - Environmental effects: Maze-like map (there are dozens of paths and walls), Electricity from the neurons
+  - New enemy type: Brain-eating amoeba (only a few in the map, but very dangerous)
+  - New skill: Freeze (slow down enemies for a short period of time)
 - The Kidneys:
+  - Environmental effects: Bloodstream
   - New enemy type: E. coli
-  - New skill: Boost (use adrenaline for a short speed boost)
-
----
-
-## Post Mortem <a name="overview"></a>
+  - New skills: Swim (can travel freely in bloodstream and other fluid
+    ), Boost (use adrenaline for a short speed boost)
