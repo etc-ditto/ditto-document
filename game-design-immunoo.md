@@ -33,6 +33,15 @@ Having this interval in mind we are also trying to dynamically adjust the diffic
 ## System Design <a name="system"></a>
 
 - **State Share Replication**: The players have the chance of splitting the cells and inviting others to join in the game with State Share feature. The players need to find lymph nodes in the game and attach to the lymph nodes in order to split and send the invitation link outside the game. Each new player is put into a separate game state, meaning they will not see each other and enjoy the level to its full.
+
+![Sending Link Mockup](https://etc-ditto.github.io/media/process/replicate.gif)
+
+<h5 style="text-align: center;">The general mockup process for sending the link.</h5>
+
+![Joining Mockup](https://etc-ditto.github.io/media/process/replicate.gif)
+
+<h5 style="text-align: center;">The general mockup process for joining the game.</h5>
+
 - **Skill Inheritance**: The cell can learn different skills either by collecting power-ups in the game, or when someone shares the link to the player, they will inherit one skill from the parent cell. The skill is saved with player's profile so it will not disappear after leaving the game. The more games you join, the more skills you will obtain.
   For the heart level in our prototype there are three example skills in effect:
   - Supervision: cells with Supervision are able to see viruses in disguise, allowing other cells to eat them.
@@ -70,7 +79,9 @@ Chamber 2 is the "Practice" level. We continue to introduce some more complex me
 Chamber 3 is the "Master" level. More viruses are there and as we introduce the camouflage mechanic, we are asking players to be more aware of the surrounding environment to find collectibles that allows them to get the "supervision" skill to find the disguised virus. The environmental effect is also more challenging there.
 
 ![Chamber 4](https://etc-ditto.github.io/media/process/chamber4.png)
-Chamber 4 in our plan is the to-be boss fight level where we introduce mass battle mechanics and ask players to invite people to team up for the final battle. The mother virus has new skills child viruses don't have, but in general their skill pattern will be understandable if player have successfully gone through the previous levels because it's still asking for cell's movement control skills.
+Chamber 4 in our plan is the boss fight level where we introduce mass battle mechanics and ask players to invite people to team up for the final battle. The mother virus has new skills child viruses don't have, but in general their skill pattern will be understandable if player have successfully gone through the previous levels because it's still asking for cell's movement control skills.
+
+At the beginning of battle the mother virus is surrounded by several child viruses and thus invincible. Players will have to eat all child viruses first to make the mother virus vulnerable, and then surround it in order to kill it. The mother virus shoots damaging virus bullets and moves relatively fast. Players need to work together and use obstacles in the environment to avoid being damaged.
 
 ---
 
