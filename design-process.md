@@ -134,6 +134,8 @@ By the end of week 13 we had settled on the most important mechanics in our game
 
 Week 15 was the last week we actually had to further the development. We implemented magnetism skill in game and refined level layout to better fit what the client suggested, "Introduce Practice Master" model, essentially having an increasing demand for player's skills in levels.
 
- <video controls="true" allowfullscreen="true" >
+<figure class="video_container">
+ <video controls="true" allowfullscreen="true" width="100%">
     <source src="/media/process/final-video.mp4" type="video/mp4">
   </video>
+</figure>
