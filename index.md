@@ -6,7 +6,7 @@ nav_order: 1
 
 # Ditto Design Documentation
 
-##Project Ditto is pitching a game concept based on State Share to Stadia for official development.
+## Project Ditto is pitching a game concept based on State Share to Stadia for official development.
 
 ---
 
