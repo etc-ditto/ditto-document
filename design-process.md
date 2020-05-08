@@ -137,4 +137,4 @@ Week 15 was the last week we actually had to further the development. We impleme
 <video controls style="width:100%">
    <source src="/media/process/final-video.mp4" type="video/mp4">
 </video>
-<h5 style="text-align: center;">Final playable demo.</h5>
+<h5 style="text-align: center;">Vertical slice of our game.</h5>

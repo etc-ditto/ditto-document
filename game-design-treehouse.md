@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Game Design - Treehouse
-nav_order: 5
+nav_order: 6
 ---
 
 # Game Design - Treehouse

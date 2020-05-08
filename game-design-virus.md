@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Game Design - Virus vs. Cell
-nav_order: 4
+nav_order: 5
 ---
 
 # Game Design - Virus vs. Cell

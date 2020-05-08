@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Game Design - Immunoo
-nav_order: 6
+nav_order: 4
 ---
 
 # Game Design - Immunoo

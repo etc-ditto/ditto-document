@@ -6,7 +6,7 @@ nav_order: 1
 
 # Ditto Design Documentation
 
-## Ditto is developing a game that makes the full use of Stadia's State Share feature.
+##Project Ditto is pitching a game concept based on State Share to Stadia for official development.
 
 ---
 

@@ -18,8 +18,10 @@ State Share leverages cloud game hosting to enable players to share a complete g
 
 ### What is our design goal?
 
-The design goal of this was to discover some sort of games that put sharing game states as an important mechanism, facilitating game system designs that are inherently viral and require elaborate player cooperation across massive scale audiences.
+The main design goal of this was to discover game concept that uses sharing game states as an important mechanism, facilitating game system designs that are inherently viral and require elaborate player cooperation across massive scale audiences. We also hope our game could attract a large range of players to join Stadia.
 
 ### What are the expected deliverables?
 
-Our project is a discovery project, meaning that we will spend necessary time on the research and ideation phase, and have a playable prototype as the proof of concept. We also consider the design documentation as part of the deliverables because our client and we all agree that the whole discovery process is also important and informational.
+Our project is a discovery project, meaning we are mainly focusing on research and prototyping, and for the first half of the semester our goal was a playable prototype as the proof of concept. Given the chance of pitching our game to Stadia, for the second half of the semester our deliverable pivoted to developing a complete game concept for our client to pitch internally in Stadia!
+
+Of course, this design documentation is still one of our deliverables.

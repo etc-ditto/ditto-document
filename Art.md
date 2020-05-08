@@ -42,9 +42,9 @@ We wanted a "cute evil" aesthetic feeling for the game, so one important progres
 
 ## Visual Effects <a name="vfx"></a>
 
-![Bloodstream with Mesh](https://etc-ditto.github.io/media/art/bloodstream-mesh.gif)
+![Bloodstream with Mesh](https://etc-ditto.github.io/media/art/bloodstream.gif)
 
-  <h5 style="text-align: center;">Simulating bloodstream using 3D cell models.</h5>
+  <h5 style="text-align: center;">Simulating bloodstream using red blood cell mesh.</h5>
 
 ![Cell](https://etc-ditto.github.io/media/art/cell.gif)
 
