@@ -38,20 +38,23 @@ Having this interval in mind we are also trying to dynamically adjust the diffic
 
 <h5 style="text-align: center;">The general mockup process for sending the link.</h5>
 
-![Joining Mockup](https://etc-ditto.github.io/media/process/replicate.gif)
+![Joining Mockup](https://etc-ditto.github.io/media/process/join.gif)
 
 <h5 style="text-align: center;">The general mockup process for joining the game.</h5>
 
 - **Skill Inheritance**: The cell can learn different skills either by collecting power-ups in the game, or when someone shares the link to the player, they will inherit one skill from the parent cell. The skill is saved with player's profile so it will not disappear after leaving the game. The more games you join, the more skills you will obtain.
-  For the heart level in our prototype there are three example skills in effect:
+  For the Heart level in our prototype there are three example skills in effect:
+
   - Supervision: cells with Supervision are able to see viruses in disguise, allowing other cells to eat them.
-  - Magnetism: Virus will escape into narrow corners of the map where cell can not reach. Use magnetic power to pull them out so your teammates can eat them all.
+  - Magnetism: Since viruses are afraid of being eaten by players, and are also physically smaller, they will flee into a small crevice in the map where the cells are too big to get in.
+    However, if Player A has the Magnetism skill, they are able to use it to draw the viruses out of their hiding place, giving Player B the chance to eat them. Player A cannot eat the viruses themselves, since a cell can only have one skill active. Hence, Player A and B must work together here, if they are to get rid of viruses in this specific part of map.
+
   - Antibodies: cells can use antibodies to leave a trail to guide other cells and mark virus so other cells can see it.
 
 Players can have a pool of skills but only one of them can be activated at the same time, meaning that they need to work together with different abilities to help each other.
 
 - **More Cells, More Power!**: Players will eliminate viruses from the map the same way white blood cells do in real life: by eating them. The gameplay is oriented around absorbing viruses and their chemical trails to both eliminate contaminants and recruit more players into the game state. Some mechanics require multiple players to collectively complete and will offer better rewards.
-- **Environmental Effects**: Since the game take place inside human body, we are creating each map with its own unique qualities and hazards. For instance, in the heart, players are subject to the rhythms of the blood stream. Bloodstream is a unique game element that acts both a boon and an obstacle to players, dependent on the timing. But in the stomach, players must avoid stores of acid found around the map.
+- **Environmental Effects**: Since the game take place inside human body, we are creating each map with its own unique qualities and hazards. For instance, in the Heart, players are subject to the rhythms of the blood stream. Bloodstream is a unique game element that acts both a boon and an obstacle to players, dependent on the timing. But in the stomach, players must avoid stores of acid found around the map.
 
 ---
 
@@ -63,7 +66,7 @@ The game by concept has a heart map with four integrated chambers.
 
 <h5 style="text-align: center;">The level design of heart.</h5>
 
-Inspired by our client's suggestion, we use Nintendo's IPM model (Introduce, Practice, Master) as a principle in designing the levels. All chambers are designed for multiplayer experience, with increasing demands for skill mastery from players. The increasing difficulty mainly means more enemies and more complex mechanics in the later chambers.
+Inspired by our client's suggestion, we use a method called IPM (Introduce, Practice, Master) as a principle in designing the levels. All chambers are designed for multiplayer experience, with increasing demands for skill mastery from players. The increasing difficulty mainly means more enemies and more complex mechanics in the later chambers.
 
 The last chamber is designed to be the boss fight room, with a preparation room in front of it which technically serves as a place for players to invite their friends/audience and team up before entering the boss room.
 
@@ -82,6 +85,8 @@ Chamber 3 is the "Master" level. More viruses are there and as we introduce the 
 Chamber 4 in our plan is the boss fight level where we introduce mass battle mechanics and ask players to invite people to team up for the final battle. The mother virus has new skills child viruses don't have, but in general their skill pattern will be understandable if player have successfully gone through the previous levels because it's still asking for cell's movement control skills.
 
 At the beginning of battle the mother virus is surrounded by several child viruses and thus invincible. Players will have to eat all child viruses first to make the mother virus vulnerable, and then surround it in order to kill it. The mother virus shoots damaging virus bullets and moves relatively fast. Players need to work together and use obstacles in the environment to avoid being damaged.
+
+The expected overall playtime for a appropriate number of players would be 5-6 minutes.
 
 ---
 
